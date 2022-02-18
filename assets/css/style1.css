@@ -26,34 +26,34 @@ html {
     display: inline-block;
 }
 
-#nav > li {
-    display: inline-block;
-} 
-
 #nav li {
     position: relative;
 }
 
+#nav > li {
+    display: inline-block;
+}
+
 #nav li a {
+    color: #fff;
     text-decoration: none;
-    padding: 0 21px;
-    line-height: 46px;
     display: block;
 }
 
 #nav > li > a {
-    color: #fff;
     text-transform: uppercase;
-}
-
-#nav li:hover .subnav {
-    display: block;
+    line-height: 46px;
+    padding: 0 24px;
 }
 
 #nav > li:hover > a,
 #nav .subnav li:hover a {
     background-color: #ccc;
     color: #000;
+}
+
+#nav li:hover .subnav {
+    display: block;
 }
 
 #nav .subnav {
@@ -66,14 +66,15 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#nav, .subnav {
-    list-style-type: none;
-}
-
-#nav .subnav a{
+#nav .subnav a {
     color: #000;
     padding: 0 12px;
     line-height: 38px;
+}
+
+
+#nav, .subnav {
+    list-style-type: none;
 }
 
 #nav .arrow-down {
@@ -81,13 +82,14 @@ html {
 }
 
 #header .searchbtn {
+    display: inline-block;
     float: right;
     padding: 0 21px;
 }
 
 #header .search-icon {
-    font-size: 20px;
     color: #fff;
+    font-size: 20px;
     line-height: 46px;
 }
 
@@ -98,7 +100,6 @@ html {
 
 #slider {
     margin-top: 46px;
-
 }
 
 #content {
