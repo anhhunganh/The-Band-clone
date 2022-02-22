@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*kích thước width và height bao gồm boder và padding*/
 }
 
 /* 
@@ -20,7 +20,7 @@
 */
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /*font chữ*/
 }
 
 #main {
@@ -82,7 +82,7 @@ html {
 }
 
 #nav, .subnav {
-    list-style-type: none;
+    list-style-type: none; /*ko hiện thị các chỉ mục của các danh mục trong ds*/
 }
 
 #nav .subnav a {
