@@ -309,10 +309,10 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);   /* Overlay :v */
+    align-items: center;            /* Căn giữa trên dưới */
+    justify-content: center;        /* Căn giữa trái phải */
+    display: flex;                 
 }
 
 .modal-container {
@@ -344,10 +344,10 @@ html {
     height: 129px;
     color: #fff;
     font-size: 30px;
-    display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 4px;
+    display: flex;
 }
 
 .modal-heading-icon {
