@@ -300,3 +300,100 @@ html {
 #footer {
 
 }
+
+
+/* Buy ticket modal */
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container {
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 16px;
+}
+
+.modal-close:hover { 
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.ti-close {
+
+}
+
+.modal-header {
+    background-color: #009688;
+    height: 129px;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+}
+
+.modal-heading-icon {
+    margin-right: 16px;
+}
+
+.modal-body {
+    padding: 16px;
+}
+
+.modal-label {
+    font-size: 15px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.modal-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 24px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+#buy-ticket {
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    background-color: #009688;
+    padding: 16px;
+}
+
+#buy-ticket:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.modal-footer {
+    font-size: 15px;
+    padding: 16px;
+    text-align: right;
+}
+
+.modal-footer a {
+    color: #2196F3;
+}
