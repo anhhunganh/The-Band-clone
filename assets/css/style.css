@@ -312,14 +312,20 @@ html {
     background-color: rgba(0, 0, 0, 0.3);   /* Overlay :v */
     align-items: center;            /* Căn giữa trên dưới */
     justify-content: center;        /* Căn giữa trái phải */
-    display: flex;                 
+    display: none;                 
+}
+
+.modal.open {
+    display: flex;
 }
 
 .modal-container {
     background-color: #fff;
     width: 900px;
+    max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
+    animation: modalFadeIn ease 0.5s;
 }
 
 .modal-close {
@@ -396,4 +402,15 @@ html {
 
 .modal-footer a {
     color: #2196F3;
+}
+
+@keyframes modalFadeIn{
+    from {
+        opacity: 0;
+        transform: translateY(-160px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
