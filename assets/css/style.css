@@ -23,6 +23,8 @@ html {
     font-family: Arial, Helvetica, sans-serif; /*font chữ*/
 }
 
+/* Common*/
+
 .clear {
     clear: both;
 }
@@ -30,6 +32,31 @@ html {
 .text-white {
     color: #fff !important;
 }
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33333%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Main */
 
 #main {
 
@@ -184,12 +211,6 @@ html {
     margin-top: 48px;
 }
 
-#content .member-item {
-    float: left;
-    width: 33.33333%;
-    text-align: center;
-}
-
 #content .member-name {
     font-size: 15px;
 }
@@ -243,14 +264,8 @@ html {
 
 /* Places */
 .place-list{
-    margin: 32px -8px 48px;
-}
-
-.place-item{
-    float: left;
-    width: 33.33333%;
-    padding: 0 8px;
-    font-size: 15px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .place-img{
@@ -265,6 +280,7 @@ html {
 .place-body{
     background-color: #fff;
     padding: 16px;
+    font-size: 15px;
 }
 
 .place-heading{
